@@ -1,1 +1,21 @@
+//  item 1.cpp
+//  item 1
+//
+//  Created by Adria on 02/04/24.
+//
+// Expressoes matemáticas
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    
+    cout << "x = "<< 7+3*6/2-1 << endl;
+    cout << "y = "<< (2&2+2*2/2) << endl;
+    cout << "z = "<< (3*9*(3+(9*3/(3)))) << endl;
+    return 0;
+
+}
+
 

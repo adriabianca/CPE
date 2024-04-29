@@ -6,27 +6,18 @@
 //
 // Número inteiro e ver se é primo ou náo
 
-#include <stdio.h>
-#include <cmath>
+#include <iostream>
 
-int main()
-{
-    int x; //entrada da variável
-    bool primo;
-    
-    printf("Digite um numero inteiro: ");
-    scanf("%d", &x);
-    primo = true;
+using namespace std;
+
+int main() {
+
+   int n1;
+
+   cout << "Digite um número inteiro: ";
+   cin >> n1;
    
-    for (int p = 2; p < x; p++)
-    {
-        if (x % p == 0)
-        {
-            primo = false;
-            printf("%d nao é primo", x);
-        }
-    }
-    if (primo)
-        printf ("%d é primo", x);
-    return 0;
+   if ( n1 % 2 ) cout << n1 << " é primo\n";
+       
+   return 0;
 }

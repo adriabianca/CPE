@@ -6,23 +6,20 @@
 //
 // Ler dois inteiros e então determine e imprima se o primeiro é múltiplo do segundo.
 
-#include <stdio.h>
+#include <iostream>
+
 using namespace std;
 
-int main()
-{
+int main() {
 
-    //variaveis
-    int l;
-    int m;
+    int n1;
+    int n2;
 
-    printf("Digite dois números em l é multiplo de m: ");
-    scanf("%d %d", &l, &m);
+    cout << "Digite dois números: ";
+    cin >> n1 >> n2;
 
-    if (l % m == 0)
-    printf("l é múltiplo de m\n");
-    else
-    printf("m nao é múltiplo de b\n");
+       if ( n2 % n1 == 0 ) cout << n1 << " É múltiplo de " << n2 << endl;
+ 
 
-    return 0;
+   return 0;
 }
